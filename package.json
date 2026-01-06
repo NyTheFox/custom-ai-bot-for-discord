@@ -1,0 +1,26 @@
+{
+  "name": "luna-discord-bot",
+  "version": "1.0.0",
+  "description": "A romantic Discord girlfriend bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node luna.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "romantic",
+    "ai"
+  ],
+  "author": "You",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
